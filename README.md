@@ -1,2 +1,11 @@
-# AD-CSF-SNF
+# Predicting Preclinical Alzheimer’s Disease using Cerebrospinal Fluid Biomarkers
 Multivariate Analysis of Longitudinal Cerebrospinal Fluid Biomarkers of Pathophysiology in Preclinical Alzheimer’s Disease
+
+## Project description
+The apolipoprotein E (APOE) genotype is the greatest genetic predictor of Alzheimer’s disease (AD). Cerebrospinal fluid (CSF) biomarkers of AD—amyloid β-protein (Aβ), phosphorylated tau (p-tau), and soluble triggering receptors expressed on myeloid cells 2 (sTREM2)—represent a new avenue for studying disease progression. Many studies have conducted univariate analyses of CSF biomarkers, which fail to capture biomarker interactions and trajectories. A novel data integration technique called Similarity Network Fusion may account for the challenge of analyzing multimodal data. Using the Alzheimer’s Disease Neuroimaging Initiative dataset, we hypothesized that longitudinal multivariate analysis of CSF biomarkers will reveal clusters of patients associated with the APOE genotype in preclinical AD. 
+
+Biomarkers from 132 participants were identified with two timepoints of measurements at baseline and final follow-up. Patient similarity networks were constructed for each biomarker—Aβ42, p-tau-181, and sTREM2—at both timepoints. The individual networks were integrated to generate a single fused network with distinct clusters of patients characterized by their biomarker phenotypes. Two-tailed t-tests, Mann-Whitney U-tests, Wilcoxon Signed-Rank test, and Chi-square tests of independence were conducted to detect inter-cluster and temporal differences.
+
+Two patient clusters (n=63 and n=69) were detected with comparable demographic characteristics. At the baseline, all three biomarkers levels were significantly higher in cluster one compared to cluster two. At the final follow-up, Aβ42 levels were significantly decreased while p-tau-181 levels were significantly increased in cluster one compared to cluster two. The total number of patients with APOE ε4 alleles did not differ significantly between both clusters. 
+
+These findings demonstrate that longitudinal multivariate analysis of CSF biomarkers do not predict the APOE genotype. Lifestyle risk factors which were not investigated in this study may contribute to the observed differences in biomarker profiles. CSF biomarkers may unveil asymptomatic trajectories of the AD pathology to ultimately advance precision medicine and inform preventative care.
